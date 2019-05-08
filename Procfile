@@ -1,0 +1,1 @@
+web: UPLOAD_PATH=/app/upload java $JAVA_OPTS -cp 'target/dependency/*' webapp.runner.launch.Main --port $PROT target/*.war --enale-naming
