@@ -7,10 +7,10 @@
     <groupId>ru.nikolaeva</groupId>
     <artifactId>servlet-servlet-nikolaeva</artifactId>
     <version>1.0-SNAPSHOT</version>
-<properties>
-    <maven.compiler.source>11</maven.compiler.source>
-    <maven.compiler.target>11</maven.compiler.target>
-</properties>
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -69,19 +69,18 @@
                         </goals>
                         <configuration>
                             <artifactItems>
-                            <artifactItem>
-                                <groupId>com.github.jsimone</groupId>
-                                <artifactId>webapp-runner</artifactId>
-                                <version>9.0.19.0</version>
-                                <desFileName>webapp-runner.jar</desFileName>
-                            </artifactItem>
-                            <artifactItem>
-                                <groupId>org.apache.tomcat</groupId>
-                                <artifactId>tomcat-dbcp</artifactId>
-                                <version>9.0.19</version>
-                                <desFileName>tomcat-dbcp.jar</desFileName>
-                            </artifactItem>
-                        </artifactItems>
+                                <artifactItem>
+                                    <groupId>com.github.jsimone</groupId>
+                                    <artifactId>webapp-runner</artifactId>
+                                    <version>9.0.19.0</version>
+                                    <destFileName>webapp-runner.jar</destFileName>
+                                </artifactItem>
+                                <artifactItem>
+                                    <groupId>org.apache.tomcat</groupId>
+                                    <artifactId>tomcat-dbcp</artifactId>
+                                    <version>9.0.19</version>
+                                </artifactItem>
+                            </artifactItems>
                         </configuration>
                     </execution>
                 </executions>
